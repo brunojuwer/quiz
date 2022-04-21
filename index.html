@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>QUIZ</title>
+</head>
+<body>
+    <header>
+        <h1>QUIZ</h1>
+    </header>
+
+    <div class="main">
+        
+        <form class="quiz-form">
+            <h2 class="second-title">Você consegue acertar a marca dos seguintes carros?</h2>
+
+            <div class="container">
+
+            <div class="question">
+
+                <p>1 - Accord</p>
+
+                <div class="radio-item">
+                    <label>
+                        <input type="radio" name="inputQuestion1" value="A">
+                        Honda
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion1" value="B">
+                        Toyota
+                    </label>
+                </div>
+                
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion1" value="C">
+                        Chevrolet
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion1" value="D">
+                        KIA
+                    </label>
+                </div>
+
+            </div>
+
+            
+
+            <div class="question">
+                <p>2 - Onix</p>
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion2" value="A">
+                        KIA
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion2" value="B">
+                        Bugatti
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion2" value="C">
+                        Chevrolet
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion2" value="D">
+                        Hyunday
+                    </label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>3 - Ranger</p>
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion3" value="A">
+                        Dodge
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion3" value="B">
+                        Mitsubishi
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion3" value="C">
+                        Ford
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion3" value="D">
+                        Volkswagen
+                    </label>
+                </div>
+            </div>
+
+            <div class="question">
+                <p>4 - Eclipse</p>
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion4" value="A">
+                        KIA
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion4" value="B">
+                        Honda
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion4" value="C">
+                        Subaru
+                    </label>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="radio" name="inputQuestion4" value="D">
+                        Mitsubishi
+                    </label>
+                </div>
+            </div>
+            <div class="btn">   
+                <button>ENVIAR</button>
+            </div>
+
+        </div>
+        </form>
+
+    </div>
+
+    <div class="popup-wrapper">
+        <div class="popup">
+            <div class="popup-close">x</div>
+
+            <div class="popup-content"></div>
+            
+            <p class="message-score">Você acertou <span class="percent-score">0%</span> do quiz!</p>
+    
+        </div>
+    </div>
+
+    <footer></footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
